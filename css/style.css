@@ -1,102 +1,175 @@
+.content .parallax {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url("../images/burger-joint.jpg");
+  min-height: 600px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #FFFFFF; }
+  .content .parallax .para-title {
+    font-size: 50px;
+    background-color: #23272c;
+    padding: 20px 40px;
+    border-radius: 5px; }
+  .content .parallax .para-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 300px;
+    background-color: #D3D3D3;
+    padding: 20px 80px; }
+
 body {
-  font-family: 'Raleway', sans-serif;
-  margin: 0 auto; }
+  font-family: 'Noto Sans', sans-serif;
+  margin: 0 auto;
+  padding-top: 100px; }
 
 .navbar {
   width: 100%;
-  height: 100px; }
-
-.inner {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 30px;
-  /* box-shadow: 0px 3px 7px 0px rgba(0,0,0,0.2); */ }
-
-.nav {
-  display: inline;
-  text-align: center; }
-
-.navbar a {
-  text-decoration: none;
-  color: black;
-  margin: 10px;
-  font-size: 20px;
-  line-height: 100px;
-  margin: 0 10px;
-  height: 100%;
-  padding: 0px 10px 10px 10px;
-  cursor: pointer; }
-
-.navbar a:hover {
-  color: #f05054;
-  border-bottom: 2px solid #f05054;
-  transition: color 0.3s; }
-
-.fa-hamburger {
-  font-size: 30px;
-  color: #f05054;
-  cursor: pointer; }
-
-.social {
-  font-size: 20px;
-  cursor: pointer; }
-
-.fa-facebook-square {
-  color: #385893;
-  margin-right: 10px; }
-
-.fa-twitter {
-  color: #38A1F3; }
+  height: 100px;
+  position: fixed;
+  background-color: #23272c;
+  z-index: 1;
+  top: 0; }
+  .navbar .inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px; }
+    .navbar .inner .navigation {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 70%;
+      height: 100px;
+      padding-right: 100px; }
+      .navbar .inner .navigation .fa-hamburger {
+        font-size: 30px;
+        color: #b19cd9;
+        cursor: pointer; }
+      .navbar .inner .navigation .nav {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        height: 100%; }
+        .navbar .inner .navigation .nav .active {
+          color: #b19cd9;
+          border-bottom: 2px solid #b19cd9; }
+        .navbar .inner .navigation .nav a {
+          text-decoration: none;
+          color: #FFFFFF;
+          margin: 10px;
+          font-size: 15px;
+          margin: 0 10px;
+          padding: 0px 10px 10px 10px;
+          cursor: pointer; }
+        .navbar .inner .navigation .nav a:hover {
+          color: #b19cd9;
+          border-bottom: 2px solid #b19cd9;
+          transition: color 0.3s; }
+    .navbar .inner .social {
+      font-size: 20px;
+      font-weight: bold;
+      cursor: pointer; }
+      .navbar .inner .social .fa-facebook-square {
+        color: #385893;
+        margin-right: 10px; }
+      .navbar .inner .social .fa-twitter {
+        color: #38A1F3; }
 
 .jumbotron {
   display: flex;
   flex-direction: row; }
+  .jumbotron .leftBox {
+    display: flex;
+    width: 50%;
+    height: 600px;
+    background-color: #23272c;
+    color: #FFFFFF;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0px 0px 20px 0px; }
+    .jumbotron .leftBox .burgerImage {
+      width: 300px;
+      height: 300px;
+      margin: 0 auto;
+      border-radius: 50%;
+      overflow: hidden;
+      border: 10px solid #FFFFFF; }
+      .jumbotron .leftBox .burgerImage img {
+        position: relative;
+        width: 150%;
+        right: 100px; }
+  .jumbotron .rightBox {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #23272c; }
+    .jumbotron .rightBox .inner {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      height: 100%;
+      background-color: #FFFFFF;
+      border-radius: 20px 0px 0px 0px; }
+      .jumbotron .rightBox .inner .header {
+        font-size: 80px;
+        margin-bottom: 10px; }
+      .jumbotron .rightBox .inner .subtext {
+        font-size: 20px;
+        font-style: italic; }
+      .jumbotron .rightBox .inner .menubtn {
+        margin-top: 50px;
+        color: #FFFFFF;
+        background-color: #b19cd9;
+        font-size: 20px;
+        text-transform: uppercase;
+        padding: 10px 40px;
+        border-radius: 15px; }
 
-.leftBox {
+.main {
+  padding: 20px;
+  text-align: center;
   display: flex;
-  width: 50%;
-  height: 600px;
-  background-color: #f05054;
-  color: white;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  border-radius: 0px 20px 20px 0px; }
-
-.burgerImage {
-  width: 300px;
-  height: 300px;
-  margin: 0 auto;
-  border-radius: 50%;
-  overflow: hidden;
-  border: 10px solid white; }
-
-.burgerImage img {
-  position: relative;
-  width: 150%;
-  right: 100px; }
-
-.header {
-  font-size: 50px;
-  font-style: bold;
-  margin-bottom: 10px; }
-
-.subtext {
-  font-size: 20px; }
-
-.rightBox {
-  width: 50%;
-  display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center; }
+  flex-direction: column;
+  background-color: #23272c;
+  color: #FFFFFF;
+  margin-top: 40px; }
+  .main .mission-title {
+    font-size: 35px; }
+  .main .mission {
+    width: 75%;
+    margin-top: 0; }
+  .main .quote {
+    font-weight: bold; }
 
-.menubtn {
-  margin-top: 50px;
-  color: white;
-  background-color: #f05054;
-  font-size: 20px;
-  text-transform: uppercase;
-  padding: 10px 40px;
-  border-radius: 15px; }
+.footer {
+  width: 100%;
+  height: 200px;
+  background-color: #D3D3D3;
+  margin-top: 50px; }
+  .footer .foot-inner {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .footer .foot-inner .company {
+      display: flex;
+      flex-direction: column;
+      justify-content: center; }
+      .footer .foot-inner .company .comp-title {
+        font-size: 25px;
+        margin-bottom: 5px; }

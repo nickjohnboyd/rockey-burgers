@@ -1,0 +1,34 @@
+@import "_global";
+
+.content {
+
+    .parallax {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-image: url("../images/burger-joint.jpg");
+        min-height: 600px; 
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: $white;
+
+        .para-title {
+            font-size: 50px;
+            background-color: $primary;
+            padding: 20px 40px;
+            border-radius: 5px;
+        }
+        .para-content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height:300px;
+            background-color:$light-grey;
+            padding: 20px 80px;
+          }
+      }
+}
