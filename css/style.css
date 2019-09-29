@@ -3,7 +3,6 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-image: url("../images/burger-joint.jpg");
   min-height: 600px;
   background-attachment: fixed;
   background-position: center;
@@ -21,13 +20,123 @@
     align-items: center;
     flex-direction: column;
     height: 300px;
-    background-color: #D3D3D3;
+    background-color: #d3d3d3;
     padding: 20px 80px; }
 
-body {
-  font-family: 'Noto Sans', sans-serif;
-  margin: 0 auto;
-  padding-top: 100px; }
+.content .m-para {
+  background-image: url("../images/modern-rest.jpg"); }
+
+.content .parallax {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 600px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #FFFFFF; }
+  .content .parallax .para-title {
+    font-size: 50px;
+    background-color: #23272c;
+    padding: 20px 40px;
+    border-radius: 5px; }
+  .content .parallax .para-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 300px;
+    background-color: #d3d3d3;
+    padding: 20px 80px; }
+
+.a-para {
+  background-image: url("../images/burgerTables.jpg"); }
+
+.content .parallax {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 600px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #FFFFFF; }
+  .content .parallax .para-title {
+    font-size: 50px;
+    background-color: #23272c;
+    padding: 20px 40px;
+    border-radius: 5px; }
+  .content .parallax .para-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 300px;
+    background-color: #d3d3d3;
+    padding: 20px 80px; }
+
+.l-para {
+  background-image: url("../images/redPillarJoint.jpg"); }
+
+.content .parallax {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 600px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #FFFFFF; }
+  .content .parallax .para-title {
+    font-size: 50px;
+    background-color: #23272c;
+    padding: 20px 40px;
+    border-radius: 5px; }
+  .content .parallax .para-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 300px;
+    background-color: #d3d3d3;
+    padding: 20px 80px; }
+
+.c-para {
+  background-image: url("../images/good-modern.jpg"); }
+
+.content .parallax {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 600px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #FFFFFF; }
+  .content .parallax .para-title {
+    font-size: 50px;
+    background-color: #23272c;
+    padding: 20px 40px;
+    border-radius: 5px; }
+  .content .parallax .para-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 300px;
+    background-color: #d3d3d3;
+    padding: 20px 80px; }
+
+.faq-para {
+  background-image: url("../images/burger-joint.jpg"); }
 
 .navbar {
   width: 100%;
@@ -50,7 +159,7 @@ body {
       padding-right: 100px; }
       .navbar .inner .navigation .fa-hamburger {
         font-size: 30px;
-        color: #b19cd9;
+        color: #d3d3d3;
         cursor: pointer; }
       .navbar .inner .navigation .nav {
         display: flex;
@@ -58,8 +167,8 @@ body {
         align-items: center;
         height: 100%; }
         .navbar .inner .navigation .nav .active {
-          color: #b19cd9;
-          border-bottom: 2px solid #b19cd9; }
+          color: #a2a2a2;
+          border-bottom: 2px solid #a2a2a2; }
         .navbar .inner .navigation .nav a {
           text-decoration: none;
           color: #FFFFFF;
@@ -69,8 +178,8 @@ body {
           padding: 0px 10px 10px 10px;
           cursor: pointer; }
         .navbar .inner .navigation .nav a:hover {
-          color: #b19cd9;
-          border-bottom: 2px solid #b19cd9;
+          color: #a2a2a2;
+          border-bottom: 2px solid #a2a2a2;
           transition: color 0.3s; }
     .navbar .inner .social {
       font-size: 20px;
@@ -81,6 +190,63 @@ body {
         margin-right: 10px; }
       .navbar .inner .social .fa-twitter {
         color: #38A1F3; }
+
+.footer {
+  width: 100%;
+  height: 200px;
+  background-color: #d3d3d3;
+  margin-top: 50px; }
+  .footer .foot-inner {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .footer .foot-inner .company {
+      display: flex;
+      flex-direction: column;
+      justify-content: center; }
+      .footer .foot-inner .company .comp-title {
+        font-size: 25px;
+        margin-bottom: 5px; }
+
+body {
+  font-family: 'Noto Sans', sans-serif;
+  margin: 0 auto;
+  padding-top: 100px; }
+
+.content .h-para {
+  background-image: url("../images/window-restaur.jpg");
+  height: 750px; }
+
+.content .home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0px;
+  height: 300px; }
+  .content .home .h-header {
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 15px; }
+  .content .home .h-subtext {
+    width: 50%;
+    font-size: 20px;
+    text-align: center;
+    line-height: 1.7em; }
+    .content .home .h-subtext .quotation {
+      font-size: 20px;
+      color: #a2a2a2;
+      font-weight: bold; }
+  .content .home .menubtn {
+    margin-top: 50px;
+    color: #FFFFFF;
+    background-color: #b19cd9;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 10px 40px;
+    border-radius: 15px; }
 
 .jumbotron {
   display: flex;
@@ -128,14 +294,6 @@ body {
       .jumbotron .rightBox .inner .subtext {
         font-size: 20px;
         font-style: italic; }
-      .jumbotron .rightBox .inner .menubtn {
-        margin-top: 50px;
-        color: #FFFFFF;
-        background-color: #b19cd9;
-        font-size: 20px;
-        text-transform: uppercase;
-        padding: 10px 40px;
-        border-radius: 15px; }
 
 .main {
   padding: 20px;
@@ -154,22 +312,3 @@ body {
     margin-top: 0; }
   .main .quote {
     font-weight: bold; }
-
-.footer {
-  width: 100%;
-  height: 200px;
-  background-color: #D3D3D3;
-  margin-top: 50px; }
-  .footer .foot-inner {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center; }
-    .footer .foot-inner .company {
-      display: flex;
-      flex-direction: column;
-      justify-content: center; }
-      .footer .foot-inner .company .comp-title {
-        font-size: 25px;
-        margin-bottom: 5px; }
