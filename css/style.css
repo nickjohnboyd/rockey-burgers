@@ -101,6 +101,21 @@
 .a-para {
   background-image: url("../images/burgerTables.jpg"); }
 
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 120px 30px; }
+  .main .header {
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 15px; }
+  .main .subtext {
+    width: 50%;
+    font-size: 18px;
+    margin-bottom: 20px; }
+
 .content .parallax {
   display: flex;
   justify-content: center;
@@ -129,6 +144,26 @@
 .l-para {
   background-image: url("../images/redPillarJoint.jpg"); }
 
+.main .l-header {
+  font-size: 30px;
+  margin-bottom: 20px; }
+
+.main .maps {
+  width: 500px; }
+
+.main .locations-group {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px 80px; }
+  .main .locations-group .location {
+    display: flex;
+    flex-direction: column;
+    margin: 15px; }
+    .main .locations-group .location .l-title {
+      font-weight: bold;
+      font-size: 18px;
+      margin-bottom: 3px; }
+
 .content .parallax {
   display: flex;
   justify-content: center;
@@ -156,6 +191,30 @@
 
 .c-para {
   background-image: url("../images/good-modern.jpg"); }
+
+.main .c-header {
+  font-weight: bold;
+  font-style: italic;
+  font-size: 18px; }
+
+.main .job-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+  .main .job-form .jobs {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 80px 20px 80px; }
+    .main .job-form .jobs .job-item {
+      display: flex;
+      margin-bottom: 10px; }
+  .main .job-form .work-history {
+    font-weight: bold;
+    font-size: 17px;
+    margin-bottom: 10px; }
+  .main .job-form .work-text {
+    font-style: italic; }
 
 .content .parallax {
   display: flex;
@@ -241,8 +300,7 @@
 .footer {
   width: 100%;
   height: 200px;
-  background-color: #d3d3d3;
-  margin-top: 50px; }
+  background-color: #d3d3d3; }
   .footer .foot-inner {
     width: 100%;
     height: 100%;
@@ -295,68 +353,3 @@ body {
     text-transform: uppercase;
     padding: 10px 40px;
     border-radius: 15px; }
-
-.jumbotron {
-  display: flex;
-  flex-direction: row; }
-  .jumbotron .leftBox {
-    display: flex;
-    width: 50%;
-    height: 600px;
-    background-color: #23272c;
-    color: #FFFFFF;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    border-radius: 0px 0px 20px 0px; }
-    .jumbotron .leftBox .burgerImage {
-      width: 300px;
-      height: 300px;
-      margin: 0 auto;
-      border-radius: 50%;
-      overflow: hidden;
-      border: 10px solid #FFFFFF; }
-      .jumbotron .leftBox .burgerImage img {
-        position: relative;
-        width: 150%;
-        right: 100px; }
-  .jumbotron .rightBox {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: #23272c; }
-    .jumbotron .rightBox .inner {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      width: 100%;
-      height: 100%;
-      background-color: #FFFFFF;
-      border-radius: 20px 0px 0px 0px; }
-      .jumbotron .rightBox .inner .header {
-        font-size: 80px;
-        margin-bottom: 10px; }
-      .jumbotron .rightBox .inner .subtext {
-        font-size: 20px;
-        font-style: italic; }
-
-.main {
-  padding: 20px;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  background-color: #23272c;
-  color: #FFFFFF;
-  margin-top: 40px; }
-  .main .mission-title {
-    font-size: 35px; }
-  .main .mission {
-    width: 75%;
-    margin-top: 0; }
-  .main .quote {
-    font-weight: bold; }
