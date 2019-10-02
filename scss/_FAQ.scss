@@ -4,3 +4,44 @@
 .faq-para {
     background-image: url("../images/burger-joint.jpg");
 }
+
+.main {
+
+    .faq-header {
+        margin-bottom: 60px;
+    }
+    .question-list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .q-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            .question-bar {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color: #eeeeee;
+                padding: 20px 40px;
+                margin-bottom: 20px;
+                border-radius: 10px;
+                cursor: pointer;
+
+                .q-question {
+                    margin-right: 15px;
+                }
+                .fa-angle-down {
+
+                }
+            }
+            .answer {
+                display: none;
+            }
+        }
+    }
+}

@@ -208,13 +208,43 @@
     padding: 40px 80px 20px 80px; }
     .main .job-form .jobs .job-item {
       display: flex;
+      align-items: center;
       margin-bottom: 10px; }
-  .main .job-form .work-history {
+  .main .job-form .jobs-title {
     font-weight: bold;
     font-size: 17px;
     margin-bottom: 10px; }
   .main .job-form .work-text {
     font-style: italic; }
+  .main .job-form .jobs-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px; }
+    .main .job-form .jobs-section .w-question {
+      font-style: italic; }
+    .main .job-form .jobs-section .w-textareas {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 20px; }
+  .main .job-form .avail {
+    margin-top: 40px; }
+  .main .job-form .avail-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px; }
+    .main .job-form .avail-form .job-item {
+      margin-right: 15px; }
+  .main .job-form .a-question {
+    font-style: italic;
+    margin-bottom: 20px; }
+  .main .job-form .submitbtn {
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: bold; }
 
 .content .parallax {
   display: flex;
@@ -243,6 +273,33 @@
 
 .faq-para {
   background-image: url("../images/burger-joint.jpg"); }
+
+.main .faq-header {
+  margin-bottom: 60px; }
+
+.main .question-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+  .main .question-list .q-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+    .main .question-list .q-item .question-bar {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #eeeeee;
+      padding: 20px 40px;
+      margin-bottom: 20px;
+      border-radius: 10px;
+      cursor: pointer; }
+      .main .question-list .q-item .question-bar .q-question {
+        margin-right: 15px; }
+    .main .question-list .q-item .answer {
+      display: none; }
 
 .navbar {
   width: 100%;

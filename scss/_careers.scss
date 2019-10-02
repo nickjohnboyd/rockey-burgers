@@ -25,16 +25,56 @@
     
             .job-item {
                 display: flex;
+                align-items: center;
                 margin-bottom: 10px;
             }
         }
-        .work-history {
+        .jobs-title {
             font-weight: bold;
             font-size: 17px;
             margin-bottom: 10px;
         }
         .work-text {
             font-style: italic;
+        }
+        .jobs-section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-top: 20px;
+
+            .w-question {
+                font-style: italic;
+            }
+            .w-textareas {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-top: 20px;
+            }
+        }
+        .avail {
+            margin-top: 40px;
+        }
+        .avail-form {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 40px;
+
+            .job-item {
+                margin-right: 15px;
+            }
+        }
+        .a-question {
+            font-style: italic;
+            margin-bottom: 20px;
+        }
+        .submitbtn {
+            margin-top: 40px;
+            font-size: 20px;
+            font-weight: bold;
         }
 
     }
