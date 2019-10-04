@@ -46,9 +46,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    border: 2px solid #a2a2a2;
-    padding: 40px;
-    border-radius: 15px; }
+    padding: 40px; }
     .content .menu .menu-main .food-title {
       font-size: 25px;
       font-weight: bold;
@@ -154,7 +152,8 @@
 .main .locations-group {
   display: flex;
   flex-wrap: wrap;
-  padding: 50px 80px; }
+  padding: 50px 80px;
+  margin-bottom: 50px; }
   .main .locations-group .location {
     display: flex;
     flex-direction: column;
@@ -163,6 +162,17 @@
       font-weight: bold;
       font-size: 18px;
       margin-bottom: 3px; }
+
+.main .subscribe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+  .main .subscribe .sub-item {
+    margin-bottom: 5px; }
+    .main .subscribe .sub-item .submitBtn {
+      font-size: 30px;
+      margin-top: 15px; }
 
 .content .parallax {
   display: flex;
@@ -275,7 +285,8 @@
   background-image: url("../images/burger-joint.jpg"); }
 
 .main .faq-header {
-  margin-bottom: 60px; }
+  margin-bottom: 70px;
+  font-size: 30px; }
 
 .main .question-list {
   display: flex;
@@ -286,7 +297,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center; }
+    justify-content: center;
+    margin-bottom: 15px; }
     .main .question-list .q-item .question-bar {
       display: flex;
       align-items: center;
@@ -298,8 +310,16 @@
       cursor: pointer; }
       .main .question-list .q-item .question-bar .q-question {
         margin-right: 15px; }
-    .main .question-list .q-item .answer {
-      display: none; }
+    .main .question-list .q-item #answer1, .main .question-list .q-item #answer2 {
+      display: none;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 20px; }
+      .main .question-list .q-item #answer1 .q-ans, .main .question-list .q-item #answer2 .q-ans {
+        width: 50%;
+        margin-bottom: 15px;
+        font-style: italic; }
 
 .navbar {
   width: 100%;
@@ -330,8 +350,8 @@
         align-items: center;
         height: 100%; }
         .navbar .inner .navigation .nav .active {
-          color: #a2a2a2;
-          border-bottom: 2px solid #a2a2a2; }
+          color: #eeeeee;
+          border-bottom: 2px solid #eeeeee; }
         .navbar .inner .navigation .nav a {
           text-decoration: none;
           color: #FFFFFF;
@@ -341,8 +361,8 @@
           padding: 0px 10px 10px 10px;
           cursor: pointer; }
         .navbar .inner .navigation .nav a:hover {
-          color: #a2a2a2;
-          border-bottom: 2px solid #a2a2a2;
+          color: #eeeeee;
+          border-bottom: 2px solid #eeeeee;
           transition: color 0.3s; }
     .navbar .inner .social {
       font-size: 20px;
@@ -356,8 +376,8 @@
 
 .footer {
   width: 100%;
-  height: 200px;
-  background-color: #d3d3d3; }
+  height: 150px;
+  background-color: #eeeeee; }
   .footer .foot-inner {
     width: 100%;
     height: 100%;
@@ -367,9 +387,10 @@
     .footer .foot-inner .company {
       display: flex;
       flex-direction: column;
-      justify-content: center; }
+      justify-content: center;
+      align-items: center; }
       .footer .foot-inner .company .comp-title {
-        font-size: 25px;
+        font-size: 20px;
         margin-bottom: 5px; }
 
 body {

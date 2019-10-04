@@ -36,8 +36,8 @@
     
                 .active {
                     // color: #f05054;
-                    color: #a2a2a2;
-                    border-bottom: 2px solid #a2a2a2;
+                    color: $sup-light-grey;
+                    border-bottom: 2px solid $sup-light-grey;
                 }
                 a {
                     text-decoration: none;
@@ -52,8 +52,8 @@
                     cursor: pointer;
                 }
                 a:hover {
-                    color: #a2a2a2;
-                    border-bottom: 2px solid #a2a2a2;
+                    color: $sup-light-grey;
+                    border-bottom: 2px solid $sup-light-grey;
                     transition: color 0.3s;
                 }
             }
