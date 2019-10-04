@@ -429,11 +429,3 @@ body {
     font-size: 20px;
     text-align: center;
     line-height: 1.7em; }
-  .content .home .menubtn {
-    margin-top: 50px;
-    color: #FFFFFF;
-    background-color: #b19cd9;
-    font-size: 20px;
-    text-transform: uppercase;
-    padding: 10px 40px;
-    border-radius: 15px; }
