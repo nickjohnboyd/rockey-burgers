@@ -113,6 +113,12 @@
     width: 50%;
     font-size: 18px;
     margin-bottom: 20px; }
+  .main .v-header {
+    margin-top: 50px;
+    font-size: 18px;
+    font-style: italic; }
+  .main .video {
+    margin-top: 20px; }
 
 .content .parallax {
   display: flex;
